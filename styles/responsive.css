@@ -1,29 +1,47 @@
 @media screen and (max-width: 676px) {
- .header-section{
-    flex-direction: column;
-    margin-left: 50px;
- }  
-    .items{
-flex-direction: column;
-margin-left: 50px;
-gap: 10px;
+    .header-section {
+        flex-direction: column;
+        margin-left: 50px;
     }
+
+    .items {
+        flex-direction: column;
+        margin-left: 50px;
+        gap: 10px;
+    }
+
     .items a:hover {
         background-color: #ddd;
         color: black;
     }
-    .button-fig{
+
+    /* .button-fig{
         flex-direction: column;
         margin-left: 50px;
+        width: 50%;
     }
+     */
     /* #newsletterSection */
     .form input[type="name"],
     input[type="email"] {
         padding: 16px 60px;
     }
 
+    /* flex section responxive */
+    .flex,
+    .row,
+    .newsletter {
+        flex-direction: column;
+    }
+
+    .hotel,
+    .service {
+        width: 100%;
+    }
+
     .subscribe-btn {
         padding: 13px 110px;
+
     }
 
 
@@ -45,6 +63,7 @@ gap: 10px;
         bottom: 40px;
         left: 160px;
     }
+
     .save-up-badge p {
         font-size: 0.8rem;
         font-weight: 400;

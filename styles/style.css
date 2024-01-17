@@ -15,7 +15,7 @@
     display: flex;
     /* border: 2px solid ; */
     min-height: 20px;
-    
+
     align-items: center;
     width: 50%;
 }
@@ -56,32 +56,36 @@
     color: #FF5400;
     padding: 10px;
 }
-.explore-banner{
+
+.explore-banner {
     max-width: 1200px;
     margin: 0 auto;
     /* border: 2px solid green; */
     min-height: 400px;
-    background-image: linear-gradient(180deg, rgba(19, 19,24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
-}   
-.travel-img img{
-    width: 100%;
-    object-fit: cover;
-   
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
 }
 
-.travel-greeting{
-text-align: center;
-color: #FFFFFF;
-font-size: 64px;
-} 
-.status{
+.travel-img img {
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.travel-greeting {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 64px;
+}
+
+.status {
     max-width: 80%;
     text-align: center;
     color: #FFFFFF;
     margin: 0 auto;
     font-size: 16px;
 }
-.button-fig{
+
+.button-fig {
     /* text-align: center; */
     /* border: 8px; */
     justify-content: space-between;
@@ -90,67 +94,77 @@ font-size: 64px;
     text-align: center;
 
 }
-.common-button{
+
+.common-button {
     padding: 10px 20px;
     color: black;
     /* border: 2px solid green; */
     border-radius: 10px;
-    border-color: none
-    ;
+    border-color: none;
     text-align: center
 }
-.primary-btn{
+
+.primary-btn {
     color: ;
     padding: 10px 20px;
     border-radius: 10px;
     background-color: #FF5400;
 }
-.tour-section{
+
+.tour-section {
     min-height: 400px;
-    
+
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     margin-top: 20px;
 }
-.travel-instruction{
+
+.travel-instruction {
     width: 70%;
 
 }
-.cover-font{
+
+.cover-font {
     color: #131318;
     font-size: 40px;
 }
+
 .tour-image {
     max-width: 50%;
     min-height: 20px;
     align-items: center;
 }
-.tour-image img{
+
+.tour-image img {
     max-width: 100%;
 }
-.primary-btn{
+
+.primary-btn {
     color: ;
     padding: 10px 20px;
     border-radius: 10px;
     background-color: #FF5400;
     margin-bottom: 80px;
 }
-.desti-select{
-text-align: center;
+
+.desti-select {
+    text-align: center;
 
 }
 
-.place{
+.place {
     font-size: 60px;
     color: #131318;
     text-align: center;
     max-width: 100%;
 }
+
 .row>img {
     width: 100%;
-   
+
 }
+
 .row {
     display: flex;
     gap: 10px;
@@ -159,10 +173,12 @@ text-align: center;
     margin: 0 auto;
     margin-top: 10px;
 }
+
 .flex {
     display: flex;
     gap: 24px;
 }
+
 .hotel {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
@@ -176,11 +192,13 @@ text-align: center;
     height: 284px;
     align-items: center;
 }
+
 .service {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
 }
+
 .price {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
@@ -188,23 +206,26 @@ text-align: center;
     margin: 0 auto;
     margin-top: 24px;
 }
+
 .hotel-content,
 .service-content,
 .price-content {
     padding: 32px;
 }
-.text-section{
+
+.text-section {
     color: #131318;
     font-size: 1.5rem;
     font-weight: 800;
-    
-text-align: center;
-margin-top: 50px;
+
+    text-align: center;
+    margin-top: 50px;
     margin: 0 auto;
     align-items: center;
 
 }
-.section-text-des{
+
+.section-text-des {
     color: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
@@ -212,16 +233,17 @@ margin-top: 50px;
     align-items: center;
     max-width: 1200px;
     margin-top: 10px;
-} 
+}
 
 
-.choose-container{
+.choose-container {
     margin: 0 auto;
     max-width: 1200px;
     margin-top: 30px;
 }
+
 /* #newsletter part */
-#newsletter-section {
+#newsletter-part {
     margin-top: 30px;
     margin-bottom: 100px;
     max-width: 1200px;
@@ -285,7 +307,8 @@ input[type="email"] {
     font-size: 1.25rem;
     font-weight: 800;
 }
-.subscribe-btn:hover{
+
+.subscribe-btn:hover {
     cursor: pointer;
     background-color: rgb(180, 17, 17);
 }
@@ -303,7 +326,8 @@ input[type="email"] {
     bottom: 70px;
     left: 325px;
 }
-.save-up-badge:hover{
+
+.save-up-badge:hover {
     cursor: pointer;
     background-color: gold;
 }
@@ -321,12 +345,13 @@ input[type="email"] {
     margin-top: 0;
     margin-bottom: 20px;
 }
+
 /* #footer part */
 #footer-section {
     padding: 100px 284px;
-background-color: #1313180D;
-margin-top: 20px;
-/* width: 100%;
+    background-color: #1313180D;
+    margin-top: 20px;
+    /* width: 100%;
 max-width: 1200px; */
 }
 
@@ -346,6 +371,7 @@ max-width: 1200px; */
     width: 40px;
     height: 46.673px;
 }
+
 .footer-content {
     text-align: center;
 }
